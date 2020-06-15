@@ -1,0 +1,46 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 20px;
+  width: calc(100% - 40px);
+  position: fixed;
+  z-index: 9999;
+
+  &__section-menu {
+    display: flex;
+    flex-basis: 55%;
+    justify-content: space-between;
+    align-items: baseline;
+
+    .logo {
+      color: #000;
+      font-size: 3rem;
+      font-weight: 600;
+    }
+  
+    .menu-list {
+      display: flex;
+
+      &__item {
+        padding: 0 15px;
+
+        &--link {
+          text-decoration: none;
+          color: inherit;
+          outline: none;
+        }
+      }
+    }
+  }
+
+  &__section-settings {
+    .auth-btn{
+      outline: none;
+      border-radius: 4px;
+      padding: 5px 10px;
+      color: inherit;
+      border: 1px solid rgba(0,0,0,.2);
+    }
+  }
+}

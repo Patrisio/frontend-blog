@@ -1,0 +1,11 @@
+.auth-btn {
+  &:hover {
+    border: 1px solid rgba(0,0,0,.4);
+  }
+
+  &:active {
+    box-shadow: 0 0 0 1px rgba(255,255,255,.05),
+                inset 0 0 0 1px rgba(255,255,255,.5),
+                inset 0px 40px 40px -40px rgba(0,0,0,.1);
+  }
+}

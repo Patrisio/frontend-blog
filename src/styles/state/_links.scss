@@ -1,0 +1,11 @@
+.menu-list__item--link {
+  &:hover {
+    color: #000;
+  }
+}
+
+.article-content {
+    a:hover {
+      border-bottom: 1px solid rgba(138, 75, 175, 1);
+    }
+}
